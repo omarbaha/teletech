@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include teletech *.css
+recursive-include teletech *.csv
+recursive-include teletech *.html
+recursive-include teletech *.ico
+recursive-include teletech *.js
+recursive-include teletech *.json
+recursive-include teletech *.md
+recursive-include teletech *.png
+recursive-include teletech *.py
+recursive-include teletech *.svg
+recursive-include teletech *.txt
+recursive-exclude teletech *.pyc
